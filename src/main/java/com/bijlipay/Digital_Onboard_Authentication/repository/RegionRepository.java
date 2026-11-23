@@ -1,0 +1,11 @@
+package com.bijlipay.Digital_Onboard_Authentication.repository;
+
+import com.bijlipay.Digital_Onboard_Authentication.model.Region;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RegionRepository extends JpaRepository<Region,Integer> {
+
+
+}
